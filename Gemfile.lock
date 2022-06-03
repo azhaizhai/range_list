@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    range_list (0.1.0)
+    range_list (1.0.0)
       rbtree (~> 0.4.5)
 
 GEM
