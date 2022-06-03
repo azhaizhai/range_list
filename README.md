@@ -4,6 +4,7 @@ RangeList is a library which accomplish a range list structure with basic method
 
 A pair of integers define a range, for example: [1, 5). This range includes integers: 1, 2, 3, and 4.
 A range list is an aggregate of these ranges: [1, 5), [10, 11), [100, 201).
+
 A TreeMap based RangeList is a data structure that behaves like a range list.
 
 ## Usage
