@@ -3,10 +3,9 @@
 require "rbtree"
 
 module Containers
-  # rdoc
-  #     A Red-Black tree based TreeMap is a data structure that behaves
-  #     like a hash and is sorted according to the natural ordering of
-  #     its keys.
+  # A Red-Black tree based TreeMap is a data structure that behaves
+  # like a hash and is sorted according to the natural ordering of
+  # its keys.
   class TreeMap
     def initialize
       @tree_map = RBTree.new

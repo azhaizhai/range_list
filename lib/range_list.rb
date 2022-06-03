@@ -4,11 +4,10 @@ require_relative "range_list/version"
 require_relative "containers/tree_map"
 require_relative "range_list/errors"
 
-# rdoc
-#     A pair of integers define a range, for example: [1, 5). This range includes
-#     integers: 1, 2, 3, and 4.
-#     A range list is an aggregate of these ranges: [1, 5), [10, 11), [100, 201)
-#     A TreeMap based RangeList is a data structure that behaves like a range list
+# A pair of integers define a range, for example: [1, 5). This range includes
+# integers: 1, 2, 3, and 4.
+# A range list is an aggregate of these ranges: [1, 5), [10, 11), [100, 201)
+# A TreeMap based RangeList is a data structure that behaves like a range list
 class RangeList
   def initialize
     @range_list = Containers::TreeMap.new
