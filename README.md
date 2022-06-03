@@ -43,7 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://jihulab.com/jayyang/range_list.
+Bug reports and pull requests are welcome on JiHu GitLab at https://jihulab.com/jayyang/range_list.
 
 ## License
 
